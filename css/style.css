@@ -1,0 +1,399 @@
+*{
+   margin:0;
+   padding:0;
+}
+body{
+	font-family: "宋体";
+}
+.wrap{
+	width:990px;
+	margin: 0 auto;
+}
+.toplogo{
+	height: 30px;
+	background: url("../images/back_bg.gif") ;
+     
+}
+.toplogo span {
+	font-size: 13px;
+	margin-left: 175px;
+    color:gray;
+    line-height: 30px;
+}
+.toplogo a{
+	text-decoration: none;
+	color:gray;
+	font-size: 13px;
+	line-height: 30px;
+}
+.leftlogo{
+	float:left;
+}
+.rightlogo {
+	float: right;
+	margin-right: 175px;
+   _display:inline;
+}
+
+.logo{
+	margin-top: 20px;
+
+}
+.lelogo{
+	background:url("../images/logo.gif") no-repeat;
+	width:300px;
+	height: 80px;
+	float:left;
+}
+.celogo{
+	background:url("../images/serchss.gif") no-repeat;
+	width: 450px;
+	height: 80px;
+	float:left;
+}
+.celogo input{
+	width: 320px;
+	height: 25px;
+	margin-top: 4px;
+	margin-left: 3px;
+    color:gray;
+    _display:inline;
+    border: none;
+    line-height: 25px;
+}
+.rilogo{
+	background:url("../images/cartinfo.gif") no-repeat;
+	width: 135px;
+	height:30px;
+    float:right;
+}
+.rilogo a{
+	font-size: 13px;
+	text-decoration: none;
+	margin-left: 45px;
+	line-height: 30px;
+   	color: gray;
+	_display:inline;
+}
+.rilogo a:hover{
+	text-decoration: underline;
+	color:red;
+}
+.topnav ul{
+   list-style: none;
+   height: 35px;
+   background:url("../images/Nalist1.gif") no-repeat ;
+}
+.topnav li{
+   float: left;
+}
+.topnav li a{
+   display: block;
+   width:120px;
+   text-decoration: none;
+   color:white;
+   font-weight: bold;
+   text-align: center;
+   line-height: 35px;
+}
+.topnav li a:hover,a.on{ 
+	background-color:#ff0000;
+}
+ 
+.letcont{
+	margin-top: 15px;
+	float:left;
+	width: 200px;
+	clear: both;
+}
+.letcont .list1{
+	border: 1px solid gray;
+	height: 300px;
+}
+.letcont dl{
+	float: left;
+    border-bottom: 1px solid #e2e2e2;
+    margin: 5px 5px;
+    padding-bottom: 1px;
+}
+.letcont h2 {
+	display: block;
+	font-size: 16px;
+	color: white;
+    background:url("../images/Nalist1.gif") -20px 0;
+    padding:5px;
+}
+.letcont h2 a{
+	color: white;
+	font-size: 16px;
+}
+.letcont a{
+	text-decoration: none;
+    color:gray;
+    font-size: 12px;
+}
+
+.letcont .list1 dt{
+	font-weight: bolder;
+	font-size: 13px;
+}
+.letcont .list1 dd{
+     float: left;
+     width: 60px;
+     margin-left:26px;
+     margin-top: 5px;
+     _margin-top: 5px;
+     font-size:12px;
+     background:url("../images/tubiao.gif") no-repeat left center;
+     padding-left: 5px;
+}
+
+.clea{
+	clear: both;
+}
+.letcont .list2{
+	margin-top: 10px;
+	border:1px solid gray;
+	height: 240px;
+}
+.list2 li{
+	height:30px;
+	line-height: 30px;
+	font-size: 13px;
+	border-bottom: 1px solid #e2e2e2;
+	margin:0 5px 3px;
+}
+.list2 li font{
+	color:red;
+	font-weight: bolder;
+	padding-right: 5px;
+}
+.list2 li strong{
+	margin-left:18px;
+	color: #ff6c02;
+	font-size: 13px;
+}
+.letcont .list3{
+	margin-top: 10px;
+	height: 225px;
+	border: 1px solid gray;
+}
+.list3 .image{
+	margin-top: 6px;
+}
+.list3 h2 a{
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 20px;
+	margin-left: 68px;
+}
+
+.list3 img{
+    float: left;
+	width: 80px;
+	height: 40px;
+	border: 1px solid #e6e6e6;
+	margin:6px 0 0 12px  ;
+  }
+.letcont .list4{
+  	margin-top: 10px;
+  }
+.letcont .list5{
+  	margin-top: 10px;
+  	height: 140px;
+  	border: 1px solid gray;
+  }
+.list5 ul{
+ 	font-size: 14px;
+  	color: gray;
+  	margin:5px 10px; 
+  	border-bottom: 1px dashed gray;
+  	padding-bottom: 10px;
+  }
+.letcont .list6{
+  	margin-top: 10px;
+  	height: 100px;
+  	border: 1px solid gray;
+  }
+.list6 input{
+  	margin:5px 0 5px 10px;
+  }
+.list6 .cxd{
+    background: url("../images/bg.gif") no-repeat 0px -71px;;
+    width: 99px;
+    height: 21px;
+    text-align: center;
+    border: none;
+    line-height: 21px;
+    cursor:pointer;
+}
+.rigcont {
+	float:right;
+	width: 780px;
+	margin-top: 20px;
+}
+.rigcont .product1 .lp{
+	background: url(../images/img1.jpg) no-repeat;
+	width: 575px;
+	height: 315px;
+	float: left;
+	margin-left: -2px;
+}
+.product1 .rp{
+    float: right;
+}
+.rp .rpt{
+	width: 200px;
+	height: 165px;
+	border: 1px solid #ccc;
+	margin-bottom: 8px;
+
+}
+.rp .rpt h2{
+	font-size: 14px;
+	background: url(../images/index_hot.gif) repeat-x;
+	padding-left:10px;
+	color: #595959;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+}
+.rp .rpt p{
+	font-size: 12px;
+	color: gray;
+    padding:10px 5px ;
+    line-height: 20px;
+}
+.rigcont .product2{
+	width: 778px;
+	height: 278px;
+	border: 1px solid gray;
+	margin-top: 10px;
+}
+.rigcont .product2 .prot{
+	background: url(../images/index_hot.gif) repeat-x;
+	height: 27px;
+}
+.rigcont .product2 h2{
+	font-size: 14px;
+	color:#595959;
+	line-height: 27px;
+	font-weight:bold;
+}
+
+.rigcont .product2 a{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	line-height: 27px;
+}
+.product2 .leftp{
+	float: left;
+	margin-left: 10px;
+}
+.product2 .rightp{
+	float: right;
+	margin-right: 10px;
+}
+
+.product2 img{
+	border: 1px solid #e2e2e2;
+	margin-top: 12px;
+	margin-left: 20px;
+	float: left;
+	zoom: 1;
+}
+.product2 .proa a{
+	display: inline-block;
+	font-size: 13px;
+	text-decoration: none;
+	color: gray;
+	width: 170px;
+	text-align: center;
+	margin-left: 20px;
+    float: left;
+
+}
+.product2 .proa a:hover{
+	color: black;
+}
+.product2 .proa  span {
+	display: inline-block;
+	width: 170px;
+	margin-left: 20px;
+	text-align: center;
+	float: left;
+	font-size: 13px;
+	font-weight: normal;
+}
+.product2 .proa span font{
+	text-decoration: line-through;
+	font-size: 13px;
+}
+.product2 .proa span b {
+	color: #ff6c02;
+	text-decoration: none;
+	font-size: 13px;
+}
+.foot .ftshow{
+	border: 1px solid gray;
+	height: 130px;
+	margin-top: 15px;
+}
+.ftshow dl{
+    width: 120px;
+	border-right: 1px solid gray;
+	float: left;
+	margin:20px 20px;
+	
+}
+.ftshow dd{
+    background: url(../images/tubiao.gif) no-repeat left center;
+    margin-left: -9px;
+}
+.ftshow dd a{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	padding-left: 9px;
+}
+.ftshow dd a:hover{
+    color: #ff6c02;
+}
+.ftshow dt a{
+	font-size: 12px;
+	font-weight: bold;
+	color:#595959;
+	text-decoration: none;
+}
+.ftshow p{
+	font-size: 13px;
+	color: gray;
+}
+.foot .ftteach{
+	margin-top: 10px;
+	height: 38px;
+	border: 1px solid gray;
+}
+.foot .ftteach a{
+    text-decoration: none;
+    font-size: 12px;
+    color:gray;
+    line-height: 38px;
+}
+.ftteach a:hover{
+	color:black;
+}
+.ftban{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 20px;
+	color: #595959;
+}
+.ftban a{
+	text-decoration: none;
+	color:#595959;
+	font-size: 12px;
+	font-family: "楷体"
+}
